@@ -21,6 +21,7 @@ namespace DemoDbUp.Extension
 
                 string connection = configuration.GetValue<string>("DatabaseSettings:ConnectionString");
 
+                // this will ensure that the database is created
                 EnsureDatabase.For.PostgresqlDatabase(connection);
 
                 var upgrader = DeployChanges.To
