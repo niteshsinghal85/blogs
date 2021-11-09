@@ -2,6 +2,8 @@
 all code used in my blogs.
 https://medium.com/@niteshsinghal85
 
+DbUp + Postgresql + Dapper in ASP.Net Core
+https://medium.com/@niteshsinghal85/dbup-postgresql-dapper-in-asp-net-core-c3be6c580c54
 
 Testing gRPC with gRPCui Docker and Swagger
 https://medium.com/@niteshsinghal85/testing-grpc-with-grpcui-docker-and-swagger-9cfc9531512
