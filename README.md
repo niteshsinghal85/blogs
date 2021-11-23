@@ -10,3 +10,6 @@ https://medium.com/@niteshsinghal85/testing-grpc-with-grpcui-docker-and-swagger-
 
 Design console app with Spectre.console in .Net
 https://medium.com/@niteshsinghal85/design-console-app-with-spectre-console-in-net-aff8f476f89a
+
+Certificate Based Authentication in ASP.Net core Web API
+https://medium.com/@niteshsinghal85/certificate-based-authentication-in-asp-net-core-web-api-aad37a33d448
