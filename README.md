@@ -13,3 +13,6 @@ https://medium.com/@niteshsinghal85/design-console-app-with-spectre-console-in-n
 
 Certificate Based Authentication in ASP.Net core Web API
 https://medium.com/@niteshsinghal85/certificate-based-authentication-in-asp-net-core-web-api-aad37a33d448
+
+Validating JSON with schema in .NET
+https://medium.com/@niteshsinghal85/validating-json-with-schema-in-net-7bdc02b0ef3c
