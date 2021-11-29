@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoSwaggerAnnotationWithXmlComments</name>
+    </assembly>
+    <members>
+        <member name="M:DemoSwaggerAnnotationWithXmlComments.Controllers.WeatherForecastController.Get">
+            <summary>
+            Gets weather forecast
+            </summary>
+            <returns>List of weather forecast</returns>
+            <response code="200">Request successful</response>
+        </member>
+        <member name="P:DemoSwaggerAnnotationWithXmlComments.WeatherForecast.Date">
+            <summary>
+            "Date and time for weather"
+            </summary>
+            <example>2021-10-30T10:42:53.531Z</example>
+        </member>
+        <member name="P:DemoSwaggerAnnotationWithXmlComments.WeatherForecast.TemperatureC">
+            <summary>
+            Temperature in celcius
+            </summary>
+            <example>40</example>
+        </member>
+        <member name="P:DemoSwaggerAnnotationWithXmlComments.WeatherForecast.TemperatureF">
+            <summary>
+            Temperature in fahrenheit
+            </summary>
+            <example>103</example>
+        </member>
+        <member name="P:DemoSwaggerAnnotationWithXmlComments.WeatherForecast.Summary">
+            <summary>
+            Summary weather forecast 
+            </summary>
+            <example>Sweltering</example>
+        </member>
+    </members>
+</doc>
