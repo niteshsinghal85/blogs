@@ -16,3 +16,9 @@ https://medium.com/@niteshsinghal85/certificate-based-authentication-in-asp-net-
 
 Validating JSON with schema in .NET
 https://medium.com/@niteshsinghal85/validating-json-with-schema-in-net-7bdc02b0ef3c
+
+Enhance Swagger Documentation with Annotations in ASP.NET core
+https://medium.com/@niteshsinghal85/enhance-swagger-documentation-with-annotations-in-asp-net-core-d2981803e299
+
+Testing file upload with Swagger in ASP.Net core
+https://medium.com/@niteshsinghal85/testing-file-upload-with-swagger-in-asp-net-core-90269bc24fe8
