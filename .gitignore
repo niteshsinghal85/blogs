@@ -4,3 +4,4 @@
 *.user
 *.pfx
 *.crt
+/TrackAPIUsage/grafana-data/data
