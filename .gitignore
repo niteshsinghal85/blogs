@@ -5,3 +5,6 @@
 *.pfx
 *.crt
 /TrackAPIUsage/grafana-data/data
+/TrackAPIUsage/prom/data
+/TestFeatureFlags/consul
+/TestFeatureFlags/wwwroot/lib
