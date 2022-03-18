@@ -1,0 +1,40 @@
+﻿@model MockHttpRequest.UI.Services.MyActivity
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["Error"] != null) { 
+    <div class="alert alert-warning" role="alert">@TempData["Error"]</div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <a asp-area="" asp-controller="Home" asp-action="Index">Get a new activity </a>
+</div>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Activity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Type)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.Activity)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.Type)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+  
