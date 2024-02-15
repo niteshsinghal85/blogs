@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddOpenTelemetryTracing(b => {
+builder.Services.AddOpenTelemetry().WithTracing(b => {
     b.SetResourceBuilder(
         ResourceBuilder.CreateDefault().AddService(builder.Environment.ApplicationName))
      .AddAspNetCoreInstrumentation()
